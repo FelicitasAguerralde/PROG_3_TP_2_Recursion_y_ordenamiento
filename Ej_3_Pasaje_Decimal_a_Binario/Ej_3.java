@@ -1,8 +1,8 @@
 package Ej_3_Pasaje_Decimal_a_Binario;
 import java.util.ArrayList;
 public class Ej_3 {
-    ArrayList aux= new ArrayList();
-    public ArrayList binario(int n){
+    ArrayList<Integer> aux= new ArrayList<>();
+    public ArrayList<Integer> binario(int n){
         int divisor=2;
         if(n>=divisor){
             aux.add(0,n%2);

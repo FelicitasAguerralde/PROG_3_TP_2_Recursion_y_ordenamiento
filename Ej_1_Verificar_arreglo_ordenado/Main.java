@@ -1,7 +1,5 @@
 package Ej_1_Verificar_arreglo_ordenado;
 
-import java.lang.reflect.Array;
-
 public class Main {
     public static void main (String []args){
         int arregloOrdenado[] = {1, 2, 3, 4, 5};
